@@ -1,11 +1,7 @@
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Message from './components/Message';
+import { Button, ButtonGroup } from '@chakra-ui/react'
 function App() {
   return (
-    <>
-<Message/>
-    </>
+    <Button colorScheme='blue'>Button</Button>
   )
 }
 
