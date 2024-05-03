@@ -9,7 +9,7 @@ interface Genres{
 
 interface FetchGenresResponse {
   count: number;
-  results: [];
+  results: Genres[];
 }
 
 const useGenres = () => {
