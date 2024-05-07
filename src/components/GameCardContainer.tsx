@@ -13,4 +13,4 @@ const GameCardContainer = ({children}: Props) => {
   )
 }
 
-export default GameCardContainer
+export default GameCardContainer;
